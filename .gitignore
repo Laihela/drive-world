@@ -1,0 +1,14 @@
+# Ignore everything inside the project root
+/**
+
+# Whitelist all directories (but not files)
+!*/
+
+# Whitelist the .gitignore and readme files
+!/.gitignore
+!/README.md
+
+# Whitelist everything inside the Assets folder, etc.
+!/DriveWorld/Assets/**
+!/DriveWorld/ProjectSettings/**
+!/DriveWorld/Packages/**
