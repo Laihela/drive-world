@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: aaff5cf5e0171ca4e8656094703b15ac
+ModelImporter:
+  serializedVersion: 22102
+  internalIDToNameTable:
+  - first:
+      74: -5318940106190924738
+    second: Roboture|CameraAction.002
+  - first:
+      74: -4714850457739045439
+    second: Roboture|CarTransformAnim
+  - first:
+      74: 3808862889185109182
+    second: Roboture|PlaneAction
+  - first:
+      74: -1066365691442342223
+    second: Roboture|RobotRunAnimLegacy
+  - first:
+      74: -6896423234160829678
+    second: Roboture|RobotTransformAnim
+  - first:
+      74: 9215111850902892442
+    second: Roboture|RobotTransformAnim.001
+  - first:
+      74: 5272053975257763579
+    second: Roboture|Shader NodetreeAction.001
+  - first:
+      74: 5949572918016919890
+    second: Roboture|Shader NodetreeAction.002
+  - first:
+      74: -4068733628249741721
+    second: Roboture|T-Pose
+  - first:
+      74: -7083162458615458307
+    second: Roboture|Walk
+  - first:
+      74: -2676818052344162399
+    second: Roboture|Idle
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Roboture|Walk
+      takeName: Roboture|Walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roboture|Idle
+      takeName: Roboture|Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Robot01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot
+      parentName: Robot01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Roboture
+      parentName: Robot01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: Roboture
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: waist
+      parentName: Root
+      position: {x: -0, y: 0, z: 3}
+      rotation: {x: -0.00000009415697, y: 0.7071068, z: 0.7071067, w: -0.00000009415696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso
+      parentName: waist
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: -0.00000004371139, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: torso
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_end
+      parentName: head
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_upper_arm
+      parentName: torso
+      position: {x: -0.7, y: 1, z: 0}
+      rotation: {x: 0.7152954, y: -0.69882166, z: -0.0005890862, w: -0.00073820277}
+      scale: {x: 0.999999, y: 1, z: 0.99999994}
+    - name: left_lower_arm
+      parentName: left_upper_arm
+      position: {x: 0.000000022166205, y: 1.0440787, z: 9.313226e-10}
+      rotation: {x: -0.0021650824, y: -0.0025006763, z: -0.023973498, w: 0.99970716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DoorFrontUpper.L
+      parentName: left_lower_arm
+      position: {x: -0.2741335, y: 1.2509823, z: -0.18414447}
+      rotation: {x: 0.84223634, y: -0.075345725, z: -0.5311447, w: -0.053351115}
+      scale: {x: 1.0000006, y: 1, z: 1}
+    - name: DoorFrontUpper.L_end
+      parentName: DoorFrontUpper.L
+      position: {x: -0, y: 1.5255829, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DoorFrontLower.L
+      parentName: left_lower_arm
+      position: {x: -0.30827925, y: 1.2457668, z: 0.16317709}
+      rotation: {x: -0.2941519, y: 0.01940167, z: 0.95224243, w: 0.07957838}
+      scale: {x: 0.9999881, y: 0.9999998, z: 0.99999994}
+    - name: DoorFrontLower.L_end
+      parentName: DoorFrontLower.L
+      position: {x: -0, y: 1.520325, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_hand
+      parentName: left_lower_arm
+      position: {x: -0.000000024327278, y: 1.00005, z: -0.0000000026747968}
+      rotation: {x: 0.004999813, y: 0.000000117330806, z: -0.0000000034679677, w: 0.99998754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_hand_end
+      parentName: left_hand
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FenderFront.L
+      parentName: left_upper_arm
+      position: {x: -0.43007886, y: 0.3760446, z: 0.15639754}
+      rotation: {x: 0.6889727, y: 0.17089824, z: -0.60607755, w: -0.3588599}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: FenderFront.L_end
+      parentName: FenderFront.L
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WheelFront.L
+      parentName: left_upper_arm
+      position: {x: -0.48376414, y: 0.19197834, z: -0.032408737}
+      rotation: {x: 0.4182559, y: -0.566771, z: 0.42590514, w: 0.5678358}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: WheelFront.L_end
+      parentName: WheelFront.L
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Headlight.L
+      parentName: left_upper_arm
+      position: {x: -0.12844136, y: 0.3796001, z: -0.34128916}
+      rotation: {x: 0.8823394, y: -0.4682655, z: 0.021234654, w: -0.041876595}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Headlight.L_end
+      parentName: Headlight.L
+      position: {x: -0, y: 0.4999998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_upper_arm
+      parentName: torso
+      position: {x: 0.7, y: 1, z: 0}
+      rotation: {x: 0.7152914, y: 0.69881725, z: 0.002466069, w: -0.002572269}
+      scale: {x: 0.999999, y: 0.99999994, z: 0.99999994}
+    - name: right_lower_arm
+      parentName: right_upper_arm
+      position: {x: 0.0000001211511, y: 1.0440788, z: 0}
+      rotation: {x: -0.0022282621, y: -0.00012334944, z: 0.023967804, w: 0.99971026}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: DoorFrontUpper.R
+      parentName: right_lower_arm
+      position: {x: 0.27413347, y: 1.2509825, z: -0.18414463}
+      rotation: {x: 0.84223646, y: 0.075345725, z: 0.53114444, w: -0.053351093}
+      scale: {x: 1.0000014, y: 1, z: 1}
+    - name: DoorFrontUpper.R_end
+      parentName: DoorFrontUpper.R
+      position: {x: -0, y: 1.5255829, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DoorFrontLower.R
+      parentName: right_lower_arm
+      position: {x: 0.3082794, y: 1.2457668, z: 0.16317697}
+      rotation: {x: 0.29415196, y: 0.019401606, z: 0.9522424, w: -0.079578236}
+      scale: {x: 0.9999898, y: 0.9999998, z: 0.99999994}
+    - name: DoorFrontLower.R_end
+      parentName: DoorFrontLower.R
+      position: {x: -0, y: 1.520325, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_hand
+      parentName: right_lower_arm
+      position: {x: 0.000000080088675, y: 1.0000501, z: -7.3293116e-10}
+      rotation: {x: 0.004999813, y: 0.00000011941404, z: -0.0000000059231278, w: 0.99998754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_hand_end
+      parentName: right_hand
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FenderFront.R
+      parentName: right_upper_arm
+      position: {x: 0.4292523, y: 0.37604418, z: 0.15865283}
+      rotation: {x: 0.6873798, y: -0.16995579, z: 0.60788363, w: -0.35930708}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: FenderFront.R_end
+      parentName: FenderFront.R
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WheelFront.R
+      parentName: right_upper_arm
+      position: {x: 0.48392773, y: 0.1919784, z: -0.029869016}
+      rotation: {x: 0.4193738, y: 0.56527764, z: -0.42480755, w: 0.5693201}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: WheelFront.R_end
+      parentName: WheelFront.R
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Headlight.R
+      parentName: right_upper_arm
+      position: {x: 0.13023102, y: 0.37960014, z: -0.3406102}
+      rotation: {x: 0.8823921, y: 0.46837384, z: -0.01891876, w: -0.040647417}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Headlight.R_end
+      parentName: Headlight.R
+      position: {x: -0, y: 0.4999998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BumperFront.C
+      parentName: torso
+      position: {x: 1.2399677e-16, y: 0.53187037, z: 0.61382055}
+      rotation: {x: 0.00000031694847, y: -0.14386548, z: 0.98959726, w: -0.000000088480554}
+      scale: {x: 1, y: 0.9999997, z: 0.9999972}
+    - name: BumperFront.C_end
+      parentName: BumperFront.C
+      position: {x: -0, y: 0.39278558, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Roof.R
+      parentName: torso
+      position: {x: 0.3329838, y: 1.2991438, z: -0.59575737}
+      rotation: {x: 0.9992207, y: 0.016501456, z: 0.0005938257, w: -0.03585216}
+      scale: {x: 1.0000017, y: 1.0000001, z: 1.0000079}
+    - name: Roof.R_end
+      parentName: Roof.R
+      position: {x: -0, y: 0.49999985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Roof.L
+      parentName: torso
+      position: {x: -0.3329838, y: 1.2991438, z: -0.59575737}
+      rotation: {x: 0.9992207, y: -0.016501456, z: -0.0005938257, w: -0.03585216}
+      scale: {x: 1.0000017, y: 1.0000001, z: 1.0000079}
+    - name: Roof.L_end
+      parentName: Roof.L
+      position: {x: -0, y: 0.49999985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WindowFront.R
+      parentName: torso
+      position: {x: 0.411412, y: 1.1357794, z: -0.54793507}
+      rotation: {x: 0.9993455, y: -0.000653813, z: 0.02616878, w: -0.024967961}
+      scale: {x: 1, y: 1, z: 1.0000017}
+    - name: WindowFront.R_end
+      parentName: WindowFront.R
+      position: {x: -0, y: 1.0012492, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WindowFront.L
+      parentName: torso
+      position: {x: -0.411412, y: 1.1357794, z: -0.54793507}
+      rotation: {x: 0.9993455, y: 0.000653813, z: -0.02616878, w: -0.024967961}
+      scale: {x: 1, y: 1, z: 1.0000017}
+    - name: WindowFront.L_end
+      parentName: WindowFront.L
+      position: {x: -0, y: 1.0012492, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grille.C
+      parentName: torso
+      position: {x: -0, y: 0.9170852, z: 0.5202495}
+      rotation: {x: 0.00000031356274, y: 0.02123383, z: 0.9997746, w: -0.0000000066596386}
+      scale: {x: 1, y: 1.0000004, z: 1.0000007}
+    - name: Grille.C_end
+      parentName: Grille.C
+      position: {x: -0, y: 0.4999998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BumperFront.R
+      parentName: torso
+      position: {x: 0.09896597, y: 0.7914977, z: 0.63118213}
+      rotation: {x: -0.14482406, y: 0.060873363, z: -0.66969347, w: 0.7258314}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: BumperFront.R_end
+      parentName: BumperFront.R
+      position: {x: -0, y: 0.6387139, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonnetA.R
+      parentName: torso
+      position: {x: 0.41141197, y: 0.122816086, z: -0.52648747}
+      rotation: {x: -0.040210128, y: 0.99799716, z: 0.01756835, w: 0.045566317}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: BonnetA.R_end
+      parentName: BonnetA.R
+      position: {x: -0, y: 0.50000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonnetA.L
+      parentName: torso
+      position: {x: -0.41141197, y: 0.122816086, z: -0.52648747}
+      rotation: {x: 0.04021012, y: 0.9979971, z: 0.017568354, w: -0.045566447}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: BonnetA.L_end
+      parentName: BonnetA.L
+      position: {x: -0, y: 0.50000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BumperFront.L
+      parentName: torso
+      position: {x: -0.09896597, y: 0.7914977, z: 0.63118213}
+      rotation: {x: -0.14482406, y: -0.060873363, z: 0.66969347, w: 0.7258314}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: BumperFront.L_end
+      parentName: BumperFront.L
+      position: {x: -0, y: 0.6387139, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonnetB.R
+      parentName: torso
+      position: {x: 0.55523866, y: 1.2178063, z: 0.41037348}
+      rotation: {x: -0.6615473, y: -0.035173677, z: -0.03219065, w: 0.7483861}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: BonnetB.R_end
+      parentName: BonnetB.R
+      position: {x: -0, y: 0.8154124, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonnetB.L
+      parentName: torso
+      position: {x: -0.55523866, y: 1.2178063, z: 0.41037348}
+      rotation: {x: -0.6615473, y: 0.035173677, z: 0.03219065, w: 0.7483861}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: BonnetB.L_end
+      parentName: BonnetB.L
+      position: {x: -0, y: 0.8154124, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trunk1.C
+      parentName: torso
+      position: {x: -0, y: 0.2669096, z: -0.473627}
+      rotation: {x: 1, y: -2.6765506e-24, z: 0.00000004371139, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trunk1.C_end
+      parentName: Trunk1.C
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trunk2.C
+      parentName: torso
+      position: {x: -0, y: -0.09879875, z: -0.5586318}
+      rotation: {x: 0.9905621, y: -0.000000016339445, z: -0.00000011808422, w: 0.13706484}
+      scale: {x: 1, y: 1, z: 1.0000011}
+    - name: Trunk2.C_end
+      parentName: Trunk2.C
+      position: {x: -0, y: 0.6946087, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BumperBack.C
+      parentName: torso
+      position: {x: -0, y: -0.26383615, z: -0.7190721}
+      rotation: {x: 0.9767478, y: -0.0000000255575, z: -0.000000116437434, w: 0.21439148}
+      scale: {x: 1, y: 1, z: 1.000001}
+    - name: BumperBack.C_end
+      parentName: BumperBack.C
+      position: {x: -0, y: 0.46222445, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_upper_leg
+      parentName: waist
+      position: {x: -0.4, y: 0, z: -0.000000034969112}
+      rotation: {x: 0.9999875, y: 0.0000000014220423, z: 0.000000006945291, w: 0.005008586}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: left_lower_leg
+      parentName: left_upper_leg
+      position: {x: -0.000000024711836, y: 1.0000498, z: -3.9681147e-10}
+      rotation: {x: 0.008347652, y: -0.000000119201516, z: 0.0000000014329616, w: 0.9999652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DoorBackUpper.L
+      parentName: left_lower_leg
+      position: {x: -0.0019671188, y: 0.23265411, z: -0.4248815}
+      rotation: {x: 0.000000014174563, y: 0.9997806, z: 0.020946324, w: 0.00000066623335}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: DoorBackUpper.L_end
+      parentName: DoorBackUpper.L
+      position: {x: -0, y: 0.49999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DoorBackLower.L
+      parentName: left_lower_leg
+      position: {x: 0.3522933, y: 0.3145612, z: -0.056338917}
+      rotation: {x: -0.0023569798, y: 0.7071031, z: -0.0023569798, w: 0.70710266}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: DoorBackLower.L_end
+      parentName: DoorBackLower.L
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WheelBack.L
+      parentName: left_lower_leg
+      position: {x: -0.3259178, y: 1.4787269, z: 0.03673319}
+      rotation: {x: 0.49833038, y: -0.4983308, z: 0.5016636, w: 0.5016641}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: WheelBack.L_end
+      parentName: WheelBack.L
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FenderBack.L
+      parentName: left_lower_leg
+      position: {x: -0.3259178, y: 1.4787269, z: 0.03673319}
+      rotation: {x: -0.5001243, y: -0.49961305, z: 0.48853785, w: 0.5114619}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: FenderBack.L_end
+      parentName: FenderBack.L
+      position: {x: -0, y: 0.49999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Taillight.L
+      parentName: left_lower_leg
+      position: {x: -0.37672767, y: 0.8443098, z: 0.0068989317}
+      rotation: {x: -0.7069147, y: -0.011763948, z: 0.707009, w: -0.016476965}
+      scale: {x: 1.0000005, y: 0.9999997, z: 0.99999994}
+    - name: Taillight.L_end
+      parentName: Taillight.L
+      position: {x: -0, y: 0.5003998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WindowRear.L
+      parentName: left_lower_leg
+      position: {x: -0.3367279, y: 0.21564126, z: 0.018056951}
+      rotation: {x: -0.0023615349, y: -0.7057429, z: 0.0023524016, w: 0.7084602}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: WindowRear.L_end
+      parentName: WindowRear.L
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BumperBack.L
+      parentName: left_lower_leg
+      position: {x: 0.0052739596, y: 0.34845302, z: 0.36547}
+      rotation: {x: 0.024703182, y: 2.5174183e-15, z: 6.7327827e-16, w: 0.9996948}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: BumperBack.L_end
+      parentName: BumperBack.L
+      position: {x: -0, y: 0.4999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_foot
+      parentName: left_lower_leg
+      position: {x: -1.7515284e-10, y: 1.5000333, z: -4.8876914e-10}
+      rotation: {x: -0.47479954, y: 0.00000016648673, z: 0.000000057530478, w: 0.880094}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: left_foot_end
+      parentName: left_foot
+      position: {x: -0, y: 0.9013878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_upper_leg
+      parentName: waist
+      position: {x: 0.4, y: 0, z: 0.000000034969112}
+      rotation: {x: 0.9999875, y: -0.0000000012648489, z: 0.00000006656409, w: 0.005008586}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: right_lower_leg
+      parentName: right_upper_leg
+      position: {x: -0.0000000032677983, y: 1.0000498, z: -3.482583e-10}
+      rotation: {x: 0.008347652, y: 0.0000001192088, z: -5.5727345e-10, w: 0.9999652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DoorBackUpper.R
+      parentName: right_lower_leg
+      position: {x: 0.0019671055, y: 0.23265411, z: -0.4248815}
+      rotation: {x: -0.000000016377195, y: 0.9997806, z: 0.020946324, w: -0.00000079946676}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: DoorBackUpper.R_end
+      parentName: DoorBackUpper.R
+      position: {x: -0, y: 0.49999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DoorBackLower.R
+      parentName: right_lower_leg
+      position: {x: -0.3522933, y: 0.3145612, z: -0.056338917}
+      rotation: {x: -0.0023569798, y: -0.7071031, z: 0.0023569798, w: 0.70710266}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: DoorBackLower.R_end
+      parentName: DoorBackLower.R
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WheelBack.R
+      parentName: right_lower_leg
+      position: {x: 0.3259178, y: 1.4787269, z: 0.03673319}
+      rotation: {x: 0.49833038, y: 0.4983308, z: -0.5016636, w: 0.5016641}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: WheelBack.R_end
+      parentName: WheelBack.R
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FenderBack.R
+      parentName: right_lower_leg
+      position: {x: 0.3259178, y: 1.4787269, z: 0.03673319}
+      rotation: {x: -0.5001243, y: 0.49961305, z: -0.48853785, w: 0.5114619}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: FenderBack.R_end
+      parentName: FenderBack.R
+      position: {x: -0, y: 0.49999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Taillight.R
+      parentName: right_lower_leg
+      position: {x: 0.37672767, y: 0.8443098, z: 0.006898931}
+      rotation: {x: 0.7069147, y: -0.011763948, z: 0.707009, w: 0.016476965}
+      scale: {x: 1.0000005, y: 0.9999997, z: 0.99999994}
+    - name: Taillight.R_end
+      parentName: Taillight.R
+      position: {x: -0, y: 0.5003998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WindowRear.R
+      parentName: right_lower_leg
+      position: {x: 0.35047194, y: 0.22575778, z: 0.017765813}
+      rotation: {x: -0.0023615109, y: 0.7057429, z: -0.002352425, w: 0.7084602}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: WindowRear.R_end
+      parentName: WindowRear.R
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BumperBack.R
+      parentName: right_lower_leg
+      position: {x: -0.005273981, y: 0.34845302, z: 0.36547}
+      rotation: {x: 0.024703182, y: 9.623118e-15, z: -1.5964329e-16, w: 0.9996948}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: BumperBack.R_end
+      parentName: BumperBack.R
+      position: {x: -0, y: 0.4999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_foot
+      parentName: right_lower_leg
+      position: {x: -1.7515167e-10, y: 1.5000333, z: -4.3587634e-10}
+      rotation: {x: -0.47479954, y: -0.00000016108523, z: -0.000000047518053, w: 0.880094}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: right_foot_end
+      parentName: right_foot
+      position: {x: -0, y: 0.9013878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_toe_control
+      parentName: Roboture
+      position: {x: 0.4, y: -0.75, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_knee_target
+      parentName: right_toe_control
+      position: {x: -0, y: -3.25, z: 2}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_knee_target_end
+      parentName: right_knee_target
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_heel_control
+      parentName: right_toe_control
+      position: {x: -0, y: 1.11, z: 0}
+      rotation: {x: 0.89002943, y: -0, z: 0, w: 0.45590308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_leg_target
+      parentName: right_heel_control
+      position: {x: -0.000000029802322, y: 0.6161169, z: 0}
+      rotation: {x: 0.6942577, y: -0, z: -0, w: 0.7197265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: right_leg_target_end
+      parentName: right_leg_target
+      position: {x: -0, y: 0.9013878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_toe_control
+      parentName: Roboture
+      position: {x: -0.4, y: -0.75, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_knee_target
+      parentName: left_toe_control
+      position: {x: -0, y: -3.25, z: 2}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_knee_target_end
+      parentName: left_knee_target
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_heel_control
+      parentName: left_toe_control
+      position: {x: -0, y: 1.11, z: 0}
+      rotation: {x: 0.89002943, y: -0, z: 0, w: 0.45590308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_leg_target
+      parentName: left_heel_control
+      position: {x: 0.000000029802322, y: 0.6161169, z: 0}
+      rotation: {x: 0.6942577, y: -0, z: -0, w: 0.7197265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left_leg_target_end
+      parentName: left_leg_target
+      position: {x: -0, y: 0.9013878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
